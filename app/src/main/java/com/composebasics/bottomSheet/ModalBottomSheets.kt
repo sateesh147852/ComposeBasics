@@ -1,6 +1,7 @@
 package com.composebasics.bottomSheet
 
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.material.icons.Icons
@@ -28,7 +29,7 @@ import kotlinx.coroutines.launch
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ModalBottomSheetExample() {
-    val sheetState = rememberModalBottomSheetState()
+    val sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = false)
     val scope = rememberCoroutineScope()
     val showBottomSheet = remember {
         mutableStateOf(false)
@@ -45,7 +46,8 @@ fun ModalBottomSheetExample() {
             sheetState = sheetState,
             shape = BottomSheetDefaults.ExpandedShape,
             containerColor = Color.Magenta,
-            tonalElevation = 20.dp
+            tonalElevation = 20.dp,
+            modifier = Modifier.fillMaxHeight()
         ) {
             IconButton(
                 onClick = {
