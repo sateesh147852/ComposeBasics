@@ -1,4 +1,4 @@
-package com.composebasics
+package com.composebasics.basics
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
