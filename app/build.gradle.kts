@@ -71,4 +71,8 @@ dependencies {
 
     implementation(libs.accompanist.swiperefresh)
 
+    implementation("com.google.code.gson:gson:2.11.0")
+
+
+
 }
