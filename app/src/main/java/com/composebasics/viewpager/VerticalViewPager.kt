@@ -19,7 +19,7 @@ fun VerticalViewPagerExample() {
     }
     VerticalPager(
         state = pagerState,
-        beyondBoundsPageCount = 5
+        //beyondBoundsPageCount = 5
     ) {
         Log.i("VerticalViewPagerExample", "VerticalViewPagerExample: $it")
         Text(
