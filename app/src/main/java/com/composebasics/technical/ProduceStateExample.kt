@@ -1,4 +1,4 @@
-package com.composebasics.technical.effects.produceState
+package com.composebasics.technical
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Box
