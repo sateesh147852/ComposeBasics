@@ -1,4 +1,4 @@
-package com.composebasics.bottomNavigation
+package com.composebasics.bottomNavigation.part1
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
