@@ -1,4 +1,4 @@
-package com.composebasics.navigationDrawer
+package com.composebasics.navigationDrawer.part1
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
