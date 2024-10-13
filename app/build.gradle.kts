@@ -77,6 +77,9 @@ dependencies {
 
     implementation("androidx.compose.material:material:1.4.2")
 
+    implementation("com.google.accompanist:accompanist-permissions:0.36.0")
+
+
 
 
 }
